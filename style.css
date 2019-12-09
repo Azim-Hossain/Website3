@@ -1,0 +1,181 @@
+<link href="https://fonts.googleapis.com/css?family=Titillium+Web:200,300,400,600,700,900" rel="stylesheet">
+
+
+
+/* universal area */
+body{
+
+padding: 0px;
+margin: 0px;
+
+	font-family: 'Titillium Web', sans-serif;
+
+
+}
+.section_padding{
+	margin: 115px 0px;
+}
+
+/* universal end */
+
+
+
+/* header area start */
+header{
+	background: #87509c;
+	color: #fff;
+	padding-bottom: 145px;
+	height: 600px;
+}
+.header_middle{
+	
+	width: 60%;
+	margin:auto;
+	margin-top: 120px;
+	text-align: center;
+	color: #f7f3ea;
+
+}
+.header_middle h2{
+	position: relative;
+}
+ a.header_btn {
+	color:#f7f3ea;
+	position: absolute;
+	margin-top: 120px;
+	background: #eb7d4b;
+	padding: 15px 45px;
+	text-align: center;
+	margin-left: -90px;
+}
+a.header_btn:hover{
+	text-decoration: none;
+}
+header nav ul li a{
+	color: #f7f3ea;
+	font-size:15px;
+}
+header nav ul li a:hover{
+	text-decoration: none;
+	color: #f7f3ea;
+	background: #643a79;
+}
+
+/* header area end */
+
+
+
+/* Service area start */
+
+.service_area{
+	background: #17c2a4;
+	color: #fff;
+	height: 760px;
+
+}
+
+.service_header{
+	text-align: center;
+}
+
+.service_area h2,.team_area h2,.skill_header h2{
+	font-size: 35px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	position: relative;
+	font-family: 'Titillium Web', sans-ser;
+	opacity: .8;
+}
+.service_area h2:after,.team_area h2:after,.skill_header h2:after{
+	position: absolute;
+	content: '';
+	width: 90px;
+	height: 3px;
+	background: #14a58c;
+	left: 50%;
+    margin-top: 50px;
+    margin-left: -30px;
+    margin-bottom: 10px;
+}
+.service_header p,.skill_header p,.team_header p{
+	margin-top: 25px;
+	font-size: 18px;
+	width: 100%;
+	line-height: 10px; 
+}.service_middle{
+	text-align: center;
+}
+.service_middle h3{
+	text-transform: uppercase;
+	font-size: 24px;
+	margin-bottom: 25px;
+	margin-top: 60px;
+	font-family: 'Titillium Web', sans-ser;
+	width: 100%;
+	opacity: .8;
+
+}
+.service_middle p{
+	font-size: 16px;
+	color: #eaf7f4;
+	opacity: .8;
+}
+.service_middle img{
+	height: 150px;
+}
+/* Service area end */
+
+/* Team area start */
+
+.team_area{
+	background: #e7f1f8;
+	color: #878787;
+	height: 915px;
+}
+.team_header,.skill_header{
+	text-align: center;
+}
+.team_area h2,.skill_header h2{
+	color: #121213;
+}
+
+.team_area h2:after,.skill_header h2:after{
+	background: #878787; 
+}
+.team_maddle{
+	text-align: center;
+}
+.team_maddle img{
+	margin-bottom: 40px;
+
+}
+.team_maddle h3{
+	font-size: 24px;
+	text-transform: uppercase;
+	color: #121213;
+}
+.author_details{
+	color: #30bae7;
+}
+.team_icon{
+	letter-spacing: 15px;
+	font-size: 30px;
+}
+/* Team area end*/
+
+/* skill area start */
+.skill_area{
+	height: 660px;
+}
+.skill_details{
+	text-align: center;
+}
+.skill_details img{
+	margin-bottom: 30px
+}
+.skill_details h2{
+	font-size: 24px;
+	text-transform: uppercase;
+	font-family: 'Titillium Web', sans-ser;
+}
+/* skill area end */
